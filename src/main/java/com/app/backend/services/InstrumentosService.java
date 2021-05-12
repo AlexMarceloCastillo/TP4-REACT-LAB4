@@ -63,7 +63,7 @@ public class InstrumentosService {
 			temp.setInstrumento(entity.getInstrumento());
 			temp.setMarca(entity.getMarca());
 			temp.setModelo(entity.getModelo());
-			temp.setCostoEnvio(entity.getCantidadVendida());
+			temp.setCostoEnvio(entity.getCostoEnvio());
 			temp.setCantidadVendida(entity.getCantidadVendida());
 			temp.setDescripcion(entity.getDescripcion());
 			temp.setPrecio(entity.getPrecio());
