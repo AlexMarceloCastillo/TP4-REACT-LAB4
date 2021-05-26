@@ -67,8 +67,9 @@ public class InstrumentosService {
 			temp.setCantidadVendida(entity.getCantidadVendida());
 			temp.setDescripcion(entity.getDescripcion());
 			temp.setPrecio(entity.getPrecio());
+			if(entity.getImagen() != null) {
 			temp.setImagen(entity.getImagen());
-			
+			}
 			temp = repository.save(temp);
 			entity.setId(temp.getId());
 			return entity;
